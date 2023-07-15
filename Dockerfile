@@ -4,7 +4,7 @@ MAINTAINER alex <alexwhen@gmail.com>
 
 RUN apk --update add nginx
 
-COPY 2048-marolix /var/www//html
+COPY Marolix2011/2048:master.
 
 EXPOSE 80
 
